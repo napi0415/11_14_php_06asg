@@ -31,6 +31,7 @@ if ($status == false) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=" shortcut icon " href="img/favicon.ico">
     <title>WBSC U-15日本代表トライアウト（編集画面）</title>
 </head>
 
@@ -39,6 +40,9 @@ if ($status == false) {
         <fieldset>
             <legend>WBSC U-15日本代表トライアウト（編集画面）</legend>
             <a href="todo_read.php">一覧画面</a>
+            <div>
+                <input type="file" name="upfile" accept="image/*" capture="camera">
+            </div>
             <div>
                 名前: <input type="text" name="player_name">
             </div>

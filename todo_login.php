@@ -77,6 +77,7 @@
                 <div>
                     <button class="btn mb-3 btn-lg btn-warning">サインイン</button>
                 </div>
+                <a href="todo_register.php">新規登録</a>
 
 
 

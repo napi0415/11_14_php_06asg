@@ -24,6 +24,8 @@ if ($status == false) {
     $output = "";
     foreach ($result as $record) {
         $output .= "<tr>";
+        // 画像出力を追加
+        $output .= "<td><img src='{$record["image"]}' height=150px></td>";
         $output .= "<td>{$record["player_name"]}</td>";
         $output .= "<td>{$record["name_kana"]}</td>";
         $output .= "<td>{$record["player_position"]}</td>";
@@ -62,6 +64,7 @@ if ($status == false) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=" shortcut icon " href="img/favicon.ico">
     <title>WBSC U-15日本代表トライアウト（一覧画面）</title>
 </head>
 
